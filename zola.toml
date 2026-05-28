@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "www.weblog.perfettini.com"
+base_url = "https://www.weblog.perfettini.com"
 title = "AxZxP weblog" 
 description = "mon site basique"
 theme = "apollo"

@@ -1,5 +1,8 @@
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "www.weblog.perfettini.com"
+title = "AxZxP weblog" 
+description = "mon site basique"
+theme = "apollo"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -13,4 +16,10 @@ build_search_index = true
 theme = "catppuccin-mocha"
 
 [extra]
-# Put all your custom variables here
+menu = [
+    { name = "Articles", url = "/articles/" }, 
+    { name = "Projets", url = "/projets/" }, 
+    { name = "À Propos", url = "/a-propos/" }, 
+    ]
+
+socials = []
